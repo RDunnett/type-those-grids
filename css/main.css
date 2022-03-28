@@ -12,8 +12,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "banner banner banner"
-  "box1 box2 box3";
+    "banner banner banner"
+    "box1 box2 box3";
   gap: .75rem;
 }
 
@@ -25,6 +25,7 @@ body {
 h1 h2 dt {
   font-style: italic;
 }
+
 header {
   margin: 1rem;
 }
@@ -44,7 +45,6 @@ main > img {
   max-width: inherit;
 }
 
-
 figcaption {
   padding: 1rem;
 }
@@ -63,6 +63,7 @@ img {
   align-self: end;
   padding: 1.5rem;
 }
+
 .seven-wonders {
   display: grid;
   grid-area: banner;
