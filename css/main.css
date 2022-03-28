@@ -46,6 +46,7 @@ h3 {
   font-size: 1.5rem;
   font-style: italic;
 }
+
 main > img {
   grid-area: banner;
   max-width: inherit;
